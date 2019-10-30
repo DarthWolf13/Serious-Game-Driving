@@ -21,11 +21,13 @@ public class CarQuestions : MonoBehaviour
         if (collision.gameObject.tag == "RightAnswer")
         {
             //TODO Duidelijk maken dat het antwoord goed was dmv visual/score/geluid
+            Debug.Log("Right");
         }
 
         if (collision.gameObject.tag == "WrongAnswer")
         {
             //TODO Duidelijk maken dat het antwoord fout was dmv visual/score/geluid
+            Debug.Log("Wrong");
         }
 
     }
